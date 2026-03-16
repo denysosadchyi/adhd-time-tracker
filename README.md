@@ -1,4 +1,4 @@
-# Tauri Windows Widget
+# ADHD Timer Tauri Windows Widget
 
 A Windows always-on-top widget built with Tauri.
 
