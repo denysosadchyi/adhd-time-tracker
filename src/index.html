@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karl Timeline</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="widget-container">
+        <div class="timeline-wrapper">
+            <div class="timeline-container">
+                <div class="activity-segment" data-activity="sleep" style="background-color: #f4f4f4;">
+                    <span class="activity-label">Сон</span>
+                </div>
+                <div class="time-marker" data-time="09:00">
+                    <span class="time-label">09:00</span>
+                    <div class="marker-line">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2L12 22" stroke="#484848" stroke-width="1"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="activity-segment" data-activity="food" style="background-color: #f9f1d4; width: 54px;">
+                    <span class="activity-label">Їжа</span>
+                </div>
+                <div class="time-marker" data-time="09:30">
+                    <span class="time-label">09:30</span>
+                    <div class="marker-line">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2L12 22" stroke="#484848" stroke-width="1"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="activity-segment" data-activity="work" style="background-color: #ebf9e8; flex: 1;">
+                    <span class="activity-label">Робота</span>
+                </div>
+                <div class="time-marker" data-time="14:00">
+                    <span class="time-label">14:00</span>
+                    <div class="marker-line">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2L12 22" stroke="#484848" stroke-width="1"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="activity-segment" data-activity="food" style="background-color: #f9f1d4; width: 54px;">
+                    <span class="activity-label">Їжа</span>
+                </div>
+                <div class="time-marker" data-time="14:30">
+                    <span class="time-label">14:30</span>
+                    <div class="marker-line">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2L12 22" stroke="#484848" stroke-width="1"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="activity-segment" data-activity="work" style="background-color: #ebf9e8; flex: 1;">
+                    <span class="activity-label">Робота</span>
+                </div>
+                <div class="time-marker" data-time="18:00">
+                    <span class="time-label">18:00</span>
+                    <div class="marker-line">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2L12 22" stroke="#484848" stroke-width="1"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="activity-segment" data-activity="food" style="background-color: #f9f1d4; width: 110px;">
+                    <span class="activity-label">Їжа</span>
+                </div>
+                <div class="time-marker" data-time="19:00">
+                    <span class="time-label">19:00</span>
+                    <div class="marker-line">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2L12 22" stroke="#484848" stroke-width="1"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="activity-segment" data-activity="rest" style="background-color: #fcf3fc; width: 244px;">
+                    <span class="activity-label">Відпочинок</span>
+                </div>
+                <div class="time-marker" data-time="00:00">
+                    <span class="time-label">00:00</span>
+                    <div class="marker-line">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2L12 22" stroke="#484848" stroke-width="1"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="activity-segment" data-activity="sleep" style="background-color: #f4f4f4;">
+                    <span class="activity-label">Сон</span>
+                </div>
+            </div>
+            <div id="current-time-indicator" class="current-time-indicator">
+                <div class="current-time-line">
+                    <svg width="68" height="68" viewBox="0 0 68 68" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M34 0L34 68" stroke="#f04747" stroke-width="2"/>
+                    </svg>
+                </div>
+                <div class="current-time-badge">
+                    <span id="current-time-label">15:32</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="main.js"></script>
+</body>
+</html>
+
