@@ -1,7 +1,7 @@
 # Tauri Windows Widget
 
 A Windows always-on-top widget built with Tauri.
-
+![tracker]([https://example.com/image.jpg](https://raw.githubusercontent.com/denysosadchyi/adhd-time0tracker/e66c854f3b518b662bd50c4a89f174fc4f8e2150/src/587761778_17911176183293229_8062481524350614420_n.jpg)
 ## Features
 
 - Always-on-top window that stays above all other windows
